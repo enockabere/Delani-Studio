@@ -1,4 +1,19 @@
 /*--About US*/
+
+
+.about{
+  background-image: linear-gradient(to right top, #f2f3f4, #eff0f1, #ebedee, #e8ebeb, #e5e8e8);
+}
+
+
+
+section {
+  height: 60vh;
+  width: 100%;
+  display: table;
+
+}
+
 .section-header{
   margin-top: 70px;
   font-family: 'Oswald', sans-serif;

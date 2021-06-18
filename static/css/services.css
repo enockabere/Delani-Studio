@@ -24,3 +24,6 @@
   text-overflow: inherit;
   font-size: 15px;
 }
+.portfolio{
+  background-image: linear-gradient(to right top, #f2f3f4, #eff0f1, #ebedee, #e8ebeb, #e5e8e8);
+}
