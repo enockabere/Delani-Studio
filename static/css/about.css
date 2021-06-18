@@ -1,0 +1,20 @@
+/*--About US*/
+.section-header{
+  margin-top: 70px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: inherit;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 35px;
+
+}
+.section-para{
+  font-family: 'Assistant', sans-serif;
+  color: black;
+  text-align: justify;
+  text-decoration: none;
+  text-overflow: inherit;
+  font-size: 15px;
+}
