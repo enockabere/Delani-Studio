@@ -1,0 +1,26 @@
+.services{
+  background-image: url(../img/backgrounds/s_image.jpg);
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-size: contain;
+}
+.services-header{
+  margin-top: 100px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: inherit;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: white;
+  font-size: 35px;
+
+}
+.services-para{
+  font-family: 'Assistant', sans-serif;
+  color: white;
+  text-align: justify;
+  text-decoration: none;
+  text-overflow: inherit;
+  font-size: 15px;
+}
