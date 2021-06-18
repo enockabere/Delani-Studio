@@ -25,3 +25,47 @@
   font-size: 17px;
   font-weight: 600;
 }
+
+/*css to hide toggle content*/
+.section-headers{
+  padding-bottom: 70px;
+}
+.section-headers h3{
+  margin-top: 70px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: inherit;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 35px;
+  color: #78281F;
+}
+#design{
+  display: none;
+}
+#dev{
+  display: none;
+}
+#product{
+  display: none;
+}
+.title{
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: inherit;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  color: #78281F;
+}
+.para{
+  font-family: 'Assistant', sans-serif;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: inherit;
+  font-size: 13px;
+
+}

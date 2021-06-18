@@ -8,34 +8,34 @@ $(function() {
 
  $(document).ready(function(){
    $("#devImg").click(function(){
-     $("#devImg").slideDown('500').hide('500');
+     $("#devImg").toggle('500').hide('500');
      $("#dev").show('500');
    });
    $("#dev").click(function(){
-     $("#dev").slideUp('500');
-     $("#devImg").slideDown('500');
+     $("#dev").toggle('500');
+     $("#devImg").toggle('500');
    });
  });
 
  $(document).ready(function(){
    $("#designImg").click(function(){
-     $("#designImg").slideDown('500').hide('500');
+     $("#designImg").toggle().hide('');
      $("#design").show('500');
    });
    $("#design").click(function(){
-     $("#design").slideUp('500');
-     $("#designImg").slideDown('500');
+     $("#design").toggle('500');
+     $("#designImg").toggle('500');
    });
  });
 
  $(document).ready(function(){
    $("#productImg").click(function(){
-     $("#productImg").slideDown('500').hide('500');
+     $("#productImg").toggle('500').hide('500');
      $("#product").show('500');
    });
    $("#product").click(function(){
-     $("#product").slideUp('500');
-     $("#productImg").slideDown('500');
+     $("#product").toggle('500');
+     $("#productImg").toggle('500');
    });
  });
 // navigation bar
