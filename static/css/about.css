@@ -1,20 +1,12 @@
-/*--About US*/
-
-
+/*--About US section styles*/
 .about{
-  background-image: linear-gradient(to right top, #f2f3f4, #eff0f1, #ebedee, #e8ebeb, #e5e8e8);
+  background: #E0EAFC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
+  background: linear-gradient(to right, #CFDEF3, #E0EAFC);
+  padding-bottom: 130px;
 }
 
-
-
-section {
-  height: 60vh;
-  width: 100%;
-  display: table;
-
-}
-
-.section-header{
+.section-header h3{
   margin-top: 70px;
   font-family: 'Oswald', sans-serif;
   text-align: center;
@@ -23,13 +15,15 @@ section {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 35px;
+  color: #78281F;
 
 }
-.section-para{
+.section-para p{
   font-family: 'Assistant', sans-serif;
   color: black;
   text-align: justify;
   text-decoration: none;
   text-overflow: inherit;
-  font-size: 15px;
+  font-size: 17px;
+  font-weight: 600;
 }

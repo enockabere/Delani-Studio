@@ -80,3 +80,32 @@ body{
 
   }
 }
+
+/*navigation bar*/
+#navbar{
+  overflow: hidden;
+  background-color: #17202A;
+}
+.tabs a{
+  float: left;
+  display: block;
+  color: #AAB7B8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Assistant', sans-serif;
+  font-weight: 900;
+}
+.tabs a:hover{
+  background-color: #1B4F72;
+  color: white;
+}
+.active{
+  background-color: #78281F;
+}
+.sticky{
+  top: o;
+  position: fixed;
+  width: 100%
+}

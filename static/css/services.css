@@ -1,10 +1,11 @@
-.services{
+.service{
   background-image: url(../img/backgrounds/s_image.jpg);
   background-repeat: no-repeat;
-  background-origin: border-box;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
 }
-.services-header{
+.contents h3{
   margin-top: 100px;
   font-family: 'Oswald', sans-serif;
   text-align: center;
@@ -12,18 +13,15 @@
   text-overflow: inherit;
   text-transform: uppercase;
   font-weight: 900;
-  color: white;
   font-size: 35px;
-
+  color: #78281F;
 }
-.services-para{
+.contents p{
   font-family: 'Assistant', sans-serif;
   color: white;
   text-align: justify;
   text-decoration: none;
   text-overflow: inherit;
-  font-size: 15px;
-}
-.portfolio{
-  background-image: linear-gradient(to right top, #f2f3f4, #eff0f1, #ebedee, #e8ebeb, #e5e8e8);
+  font-size: 17px;
+  font-weight: 600;
 }
