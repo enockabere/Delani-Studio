@@ -75,7 +75,7 @@ body{
   }
   60% {
     -webkit-transform: translateY(-5px);
-    -ms-transform: translateY(-5px);
+    -z-index:1;ms-transform: translateY(-5px);
     transform: translateY(-5px);
 
   }
@@ -85,6 +85,7 @@ body{
 #navbar{
   overflow: hidden;
   background-color: #17202A;
+  z-index:500;
 }
 .tabs a{
   float: left;
@@ -105,9 +106,12 @@ body{
   background-color: #78281F;
 }
 .sticky{
-  top: o;
+  top: 0;
   position: fixed;
   width: 100%
+}
+.sticky + .about {
+  padding-top: 60px;
 }
 /*portfolio styles---*/
 

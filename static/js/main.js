@@ -38,31 +38,18 @@ $(function() {
      $("#productImg").toggle('500');
    });
  });
+ //contact us
 
- $(document).ready(function(){
-   $("#pic").mouse(function(){
-     $("#overlay").css({"background-color": "green", "transition": ".5s ease",
-     "position": "absolute", "top": "0", "bottom": "0", "left": "0", "right": "0",
-     "height": "100%", "width": "100%", "opacity": "0"});
+ /*$(document).ready(function(){
+   $("form#fom").submit(function(event){
+     var name =$("input#jina").val();
+     var mail =$("input#email").val();
+     var message =$("textarea#comment").val();
+     if ($("input#jina").val() && $("input#email").val()) {
+       alert(name + ", We have recieved your message. Thank you for reaching out to us.");
+     }else {
+       alert("Enter your name and email again!!");
+     }
    });
  });
-// navigation bar
-window.onscroll =function () {stickTop()};
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function stickTop(){
-  if (window.pageYOffset >=sticky){
-    navbar.classlist.add("sticky")
-  }else {
-    navbar.classlist.remove ("sticky")
-  }
-}
-
-//portfolio overlay
-$(document).ready(function(){
-  $("#image").mouseover(function(){
-    $("#overlay").show();
-  }).mouseout(function(){
-    $("#overlay").hide();
-  });
+})*/

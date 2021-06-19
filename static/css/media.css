@@ -1,6 +1,6 @@
 @media screen and (min-width: 480px) and (max-width: 767px){
   .hero{
-    padding-bottom: 180px;
+    padding-bottom: 200px;
   }
   .heros{
     margin-top: 100px;
@@ -8,13 +8,30 @@
     margin-right: 10%;
   }
   .h_header h2{
-    font-size: 28px;
+    font-size: 35px;
   }
   .h_para p{
-    font-size: 12px;
+    font-size: 16px;
   }
   .h_logo img{
     width: 30%;
     height: 30%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px){
+  .port{
+    margin-left:100px;
+  }
+  .p1{
+    margin-bottom: 10px;
+  }
+  #jina{
+    width:47%;
+  }
+  #email{
+    width:47%;
+  }
+  .icon{
+    margin-left: 0px;
   }
 }

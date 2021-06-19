@@ -54,9 +54,9 @@
           <div class="col-sm-12 col-md-12 col-lg-12">
             <div class="tabs">
               <a href="#hero" class="active">Home</a>
-              <a href="#">Services</a>
-              <a href="#">What We Do</a>
-              <a href="#">Contact US</a>
+              <a href="#service">Services</a>
+              <a href="#portfolio">Portfolio</a>
+              <a href="#contact">Contact US</a>
             </div>
           </div>
         </div>
@@ -86,7 +86,7 @@
       </div>
     </section>
     <!--services section-->
-    <section class="service">
+    <section class="service" id="service">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -104,6 +104,7 @@
         </div>
       </div>
     </section>
+    <!--what we do section-->
     <section>
       <div class="container">
         <div class="row">
@@ -161,6 +162,7 @@
       </div>
       </div>
     </section>
+    <!--portfolio section goes here-->
     <section id="portfolio" class="port">
       <div class="container">
         <div class="row">
@@ -244,7 +246,7 @@
         </div>
       </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -282,7 +284,7 @@
               <img src="static/img/social_icons/stumble_upon.png" alt="stumble_upon">
               <img src="static/img/social_icons/behance.png" alt="behance">
               <img src="static/img/social_icons/pinterest.png" alt="pinterest">
-              <img src="static/img/social_icons/flickr.png" alt="flickr">      
+              <img src="static/img/social_icons/flickr.png" alt="flickr">
             </div>
             <div class="f">
               <p><br>Delani Studio</br> 2019</p>
@@ -291,5 +293,19 @@
         </div>
       </div>
     </section>
+    <script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
   </body>
 </html>
