@@ -69,3 +69,25 @@
   font-size: 13px;
 
 }
+.two img{
+  margin-left: 150px;
+}
+.two h4{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #17202A;
+  padding-top: 8px;
+}
+.h41{
+  margin-left:160px;
+}
+.h42{
+  margin-left: 144px;
+}
+.h43{
+  margin-left: 115px;
+}
+.two h4:hover{
+  color: green;
+}
