@@ -38,6 +38,14 @@ $(function() {
      $("#productImg").toggle('500');
    });
  });
+
+ $(document).ready(function(){
+   $("#pic").mouse(function(){
+     $("#overlay").css({"background-color": "green", "transition": ".5s ease",
+     "position": "absolute", "top": "0", "bottom": "0", "left": "0", "right": "0",
+     "height": "100%", "width": "100%", "opacity": "0"});
+   });
+ });
 // navigation bar
 window.onscroll =function () {stickTop()};
 var navbar = document.getElementById("navbar");
@@ -50,3 +58,11 @@ function stickTop(){
     navbar.classlist.remove ("sticky")
   }
 }
+
+//portfolio overlay
+$(document).ready(function(){
+  $("#image").mouseover(function(){
+    $("#overlay").show();
+  }).mouseout(function(){
+    $("#overlay").hide();
+  });
