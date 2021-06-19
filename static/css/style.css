@@ -109,3 +109,44 @@ body{
   position: fixed;
   width: 100%
 }
+/*portfolio styles---*/
+
+.port{
+  position: relative;
+  margin-right: 100px;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+.text{
+  color: black;
+  font-weight: 900;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.overlay:hover {
+  opacity: 0.4;
+}
+
+#cont2{
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
