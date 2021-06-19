@@ -154,6 +154,7 @@ body{
 /* contact us*/
 .contact{
   background-image: url(../img/backgrounds/c_image.jpg);
+  padding-bottom: 50px;
 }
 
 #jina{
@@ -170,4 +171,23 @@ body{
 }
 #comment{
   background: transparent;
+}
+/*footer style*/
+.footer{
+  height: auto;
+  background-color: white;
+}
+.icon{
+  margin-top:10px;
+  margin-left: 250px;
+}
+.f p{
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Assistant', sans-serif;
+  color: black;
+  text-decoration: none;
+  text-overflow: inherit;
+  font-size: 17px;
+  font-weight: 600;
 }
