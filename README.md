@@ -15,6 +15,9 @@
       -git clone https://github.com/enockabere/Delani-Studio.git
       -Open the index.html on the browser or on your code editor.
 ​
+## Known Bugs
+      -Mail Chimp Api Does not work
+​
 ## Behavior Driven Development
     The webpage is easy to navigate, considering it has toggle buttons and a navigation bar. Below are steps on how to use the form therein;
 ​
