@@ -24,7 +24,7 @@
     - Click the submit button and you will see a pop saying your message has been submitted else it will tell you to resubmit your details.
 
 ## Live link
-    Deployed project can be accessed here -  [Delani Studio](https://enockabere.github.io/Akan-Name/)
+    Deployed project can be accessed here -  [https://enockabere.github.io/Delani-Studio/)
 ​
 ## Technologies used
     - HTML
