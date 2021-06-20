@@ -40,7 +40,7 @@ $(function() {
  });
  //contact us
 
- /*$(document).ready(function(){
+ $(document).ready(function(){
    $("form#fom").submit(function(event){
      var name =$("input#jina").val();
      var mail =$("input#email").val();
@@ -52,4 +52,4 @@ $(function() {
      }
    });
  });
-})*/
+})
